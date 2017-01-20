@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>banner</title>
+<script src="js/jquery.js"></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="banner">
+		
+		<ul class="img">
+			<li class=""><a href=""><img src="images/1.jpg" alt=""></a></li>
+			<li class=""><a href=""><img src="images/2.jpg" alt=""></a></li>
+			<li class=""><a href=""><img src="images/3.jpg" alt=""></a></li>
+		</ul>			
+	</div>
+
+<script src="js/jquery.banner.js"></script>	
+<script>
+$(".banner").banner({
+	isBtn:true,     //是否有左右按钮
+   isAutoMove:false, 	//是否自动滑动
+   autoMoveTime:2000,
+   nextImgSpeed:500,	//轮播切换快慢
+   numStyle:false, //num是否需要数字          
+});
+</script>
+</body>
+
+
+</html>
+
